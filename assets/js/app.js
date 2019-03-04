@@ -1,3 +1,5 @@
+// this is just a simple todo list app built with jQuery eventlisteners for a future practice of React and backend implementation
+
 $("ul").on("click", "li", function() {
   $(this).toggleClass("completed");
 });
